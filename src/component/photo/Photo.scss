@@ -1,0 +1,13 @@
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.photo h5 {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}

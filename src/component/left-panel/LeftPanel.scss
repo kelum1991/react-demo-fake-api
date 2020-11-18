@@ -1,0 +1,34 @@
+ul.app-dashboard__left-panel__nav {
+  margin: 0;
+  padding: 40px 0 0;
+  list-style: none;
+}
+
+li.app-dashboard__left-panel__nav-item {}
+
+a.app-dashboard__left-panel__nav-link {
+  text-decoration: none;
+  padding: 10px 10px 10px 35px;
+  background-color: transparent;
+  width: 85%;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  justify-content: flex-start;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease-out;
+}
+
+a.app-dashboard__left-panel__nav-link.app-dashboard__left-panel__nav-link--active, 
+a.app-dashboard__left-panel__nav-link:hover {
+  background-color: #efcb4d;
+  color: #1f354c;
+}
+
+li.app-dashboard__left-panel__nav-item {
+  margin-bottom: 15px;
+}

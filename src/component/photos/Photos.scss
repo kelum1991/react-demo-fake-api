@@ -1,0 +1,19 @@
+.app-dashboard__photo-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 32px;
+  column-gap: 32px;
+  overflow-x: scroll;
+  max-height: 600px;
+}
+
+.skeleton-photo-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 32px;
+  row-gap: 32px;
+}
+
+.skeleton-photo-list__item .MuiSkeleton-rect {
+    margin-bottom: 10px;
+}

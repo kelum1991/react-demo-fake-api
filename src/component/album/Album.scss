@@ -1,0 +1,32 @@
+.album {
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  box-shadow: 0px 4px 13px -1px #e2e2e2;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 290px;
+  transition: all 0.3s ease;
+  //background-image: url('https://aisnet.org/global_graphics/album-placeholder.jpg');
+  border-radius: 10px;
+}
+
+.album__text {
+  text-align: center;
+}
+
+.album:hover {
+  background-color: #efcb4d;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.link-override {
+  text-decoration: none;
+  color: #000;
+}
